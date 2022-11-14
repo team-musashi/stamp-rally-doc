@@ -3,9 +3,9 @@ body {
   line-height: 1.6em;
 }
 
-h1 {
+/* h1 {
   text-align: center;
-}
+} */
 
 h2 {
   font-size: 20px;
@@ -15,11 +15,11 @@ p {
   margin: 4px 0 0 20px;
 }
 
-p , ul {
+p , ol {
   font-size: 16px;
 }
 
-ul {
+ol {
   margin: 4px 0;
 }
 
@@ -34,4 +34,8 @@ li {
 p.non-indent {
   margin-left: 0px;
   margin-top: 1em;
+}
+
+.position-right {
+  text-align: right;
 }
